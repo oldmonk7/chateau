@@ -1,0 +1,22 @@
+{
+  "name": "chateau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oldmonk7/chateau.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "forever": "^0.15.3",
+    "mongoose": "^5.1.7",
+    "socketio": "^1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+##################################################################
+# Original
+##################################################################
+*.csv
+*.dat
+*.iml
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.xml
+.DS_Store
+.idea
+.project
+.strong-pm
+coverage
+/node_modules
+npm-debug.log*
+testOutput.txt
+tscommand-**
+dump.rdb
+
+##################################################################
+# Added
+##################################################################
+
+# App folders
+/server
+/dist
+/storage
+/cache
+/logs
+/test/test-storage
+/test/test-storage*
+/typings
+/coverage
+.tscache/
+.baseDir.ts
+
+
+# Dotenv file
+.env*
+
+# Reid's Notes
+/.notes.md
+
+# VS code files
+.vscode
+
+# Migrations results
+.migrate
+.npmrc
+docker/base
+scripts/maintenance/rewards/airbnb/input.json
+.nyc_output
