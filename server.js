@@ -6,7 +6,7 @@ var Room = require('./models/room');
 var Person = require('./models/person');
 
 app.get('/', function(req, res){
-  res.sendJSON({ hello: "world"});
+  res.send({ hello: "world"});
 });
 
 
