@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "8.9",
+    "npm": "3.10.3",
+    "yarn": "0.24.5"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/oldmonk7/chateau.git"
@@ -14,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "forever": "^0.15.3",
     "mongoose": "^5.1.7",
